@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-In the deployed website (<>), click on the links on top to navigate the website as desired.
+In the deployed website (<https://anj-23.github.io/portfolio-react/>), click on the links on top to navigate the website as desired.
 
 ![alt text goes here](assets/images/screenshot.jpg)
 

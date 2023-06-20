@@ -5,8 +5,12 @@ function Footer() {
     return (
         <footer className="footer-container">
             <div>
-                <a href="https://github.com/ANJ-23" target="_blank"><img src="./assets/images/github_icon_small_2.png" /></a>
-                <a href="https://www.linkedin.com/in/andrew-joo-500/" target="_blank"><img src="./assets/images/linkedin_icon_small.png" /></a>
+                <a href="https://github.com/ANJ-23" rel="noreferrer" target="_blank" >
+                    <img src={require("../assets/images/github_icon_small_2.png")} alt="Github link"/>
+                </a>
+                <a href="https://www.linkedin.com/in/andrew-joo-500/" rel="noreferrer" target="_blank" >
+                    <img src={require("../assets/images/linkedin_icon_small.png")} alt="LinkedIn link"/>
+                </a>
             </div>
         
             <div>

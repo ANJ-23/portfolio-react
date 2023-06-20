@@ -7,16 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Home, About, Portfolio, Contact, Resume} from "./pages"
 import {Navigation, Header, Footer} from "./components"
 
-/* import Home from "./pages/Home"
-import About from "./pages/About"
-import Portfolio from "./pages/Portfolio" */
-
-/* 
-TO-DO:
-- set body size
-- implement light & dark mode switch
-*/
-
 function App() {
   const [currentPage, setCurrentPage] = useState("home")
   // console.log(typeof currentPage);

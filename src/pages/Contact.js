@@ -9,7 +9,7 @@ function Contact() {
         <Container className="main-sect">
             <Row>
                 <Col>
-                    <img src="./assets/images/cat_1.jpg" width="190px" />
+                    <Image src="./assets/images/cat_1.jpg" width="190px" />
                     <p>aaaa</p>
                 </Col>
 

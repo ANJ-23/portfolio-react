@@ -56,17 +56,20 @@ nav {
   background-color: rgb(0, 77, 52);
   color: white;
 }
-
-nav a {
+a.nav-link {
   font-size: 22px;
   color: white;
+}
+/* nav bar's logo font */
+span.navbar-brand {
+  font-size: 36px;
 }
 
 main {
   font-family: 'Roboto', sans-serif;
   /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-  background-color: rgb(16, 16, 119);
-  color: white
+  background-color: rgb(4, 4, 61);
+  color: white;
 }
 
 section {
@@ -77,10 +80,8 @@ section {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
-  /* font-size: 48px; */
-}
 
+/* Header */
 .header-container {
   position: relative;
   text-align: center;
@@ -89,27 +90,27 @@ section {
 
   color: white;
 }
-
 .header-image {
   display: flex;
   width: 100%;
   height: 400px;
   object-fit: cover;
+  opacity: 0.35;
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .image-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  /* font-size: 64px; */
+  font-size: 84px;
 }
+
 
 /* MAIN BODY - for Home & About pages */
 .main-sect {
@@ -124,6 +125,39 @@ section {
 .main-sect p {
   font-size: 18px;
 }
+
+
+/* Portfolio page */
+.portfolio-image {
+  width: 380px;
+  height: 214px;
+}
+h4 {
+  color: green;
+}
+
+
+/* Resume page */
+.resume {
+  padding: 40px 40px;
+}
+.resume a {
+  text-decoration: none;
+  color: lightgreen;
+}
+.resume h4 {
+  margin-top: 10px;
+}
+.resume div.row {
+  /* padding: 40px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.resume div.row div.col {
+  /* padding: 40px; */
+  padding: 10px 10px;
+}
+
 
 /* FOOTER */
 .footer-container {
@@ -142,6 +176,7 @@ section {
   /* text-align: center; */
 }
 
+
 /* inverts footer icons + gives a bit of space between them */
 .footer-container img {
   filter: invert(100%);
@@ -149,35 +184,36 @@ section {
   margin: 10px;
 }
 
-.resume {
-  padding: 40px 40px;
-}
-
-.resume a {
-  text-decoration: none;
-}
-
-.resume h4 {
-  margin-top: 10px;
-}
-
 
 /* RESPONSIVE CODE */
 /* changes font size depending on screen size */
-/* @media screen and (min-width: 800px) and (max-width: 992px) {
-    header {
-        
-    }
+@media screen and (min-width: 800px) and (max-width: 992px) {
+  
 }
 
 @media screen and (max-width: 768px) {
-    nav {
-        
-    }
+  .header-container, .header-image {
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .sample-img {
-        background-color: #8ac4ff;
-    }
-} */
+  span.navbar-brand {
+    font-size: 26px;
+  }
+  a.nav-link {
+    font-size: 18px;
+  }
+
+  .header-container, .header-image {
+    height: 200px;
+  }
+  .image-text {
+    font-size: 56px;
+  }
+
+  .portfolio-image {
+    width: 260px;
+    height: 166px;
+  }
+}

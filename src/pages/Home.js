@@ -3,14 +3,19 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
 
+/* 
+TO-DO:
+- delete the "Click on the nav links" column?
+- replace cat picture with pic of me
+*/
+
 function Home(props) {
 
     return (
-       
         <Container className="main-sect">
             <Row>
                 <Col xs lg="3" style={{textAlign:"center"}}>
-                    <img src="./assets/images/cat_1.jpg" width="190px" />
+                    <Image src={require("../assets/images/cat_1.jpg")} width="190px" alt='Cat 1'/>
                 </Col>
 
                 <Col xs lg="2">
@@ -22,8 +27,6 @@ function Home(props) {
                 </Col>
             </Row>
         </Container> 
-        
-        
     )
 }
 

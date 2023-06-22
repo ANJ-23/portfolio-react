@@ -1,7 +1,10 @@
-import './App.css';
-// import non-booststrap styling
+// (c) Copyright Andrew Joo 2023
+// https://github.com/ANJ-23/portfolio-react
 
-import {useState, useEffect} from "react"
+import './App.css';
+
+import {useState} from "react"
+// import {useEffect} from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import {Home, About, Portfolio, Contact, Resume} from "./pages"
@@ -10,8 +13,6 @@ import {Navigation, Header, Footer} from "./components"
 function App() {
   const [currentPage, setCurrentPage] = useState("home")
   // console.log(typeof currentPage);
-
-  
 
   return (
     <div className="App" style={{height:"400"}}>
@@ -23,6 +24,7 @@ function App() {
 
       {/* Nav bar; clicking on the links "sets the current page" & changes page accordingly */}
       <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
+
 
       {/* Page changes depending on what the user "set the page as" */}
       {currentPage === "home" && (
@@ -69,6 +71,7 @@ function App() {
         </main>
       )}
 
+
       {/* WILL IMPLEMENT LATER */}
       {currentPage === "contact" && (
         <main>
@@ -80,6 +83,7 @@ function App() {
           </Contact>
         </main>
       )}
+
 
       <Footer>
         

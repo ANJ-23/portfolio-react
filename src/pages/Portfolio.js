@@ -22,7 +22,7 @@ function Portfolio(props) {
     </section> */
 
     return (
-        <Container className="resume">
+        <Container className="port-res fade-in-delayed">
             <Row>
                 {/* JukeLink (back end; Music playlist concept) (Project 2) */}
                 <Col>
@@ -31,13 +31,15 @@ function Portfolio(props) {
                         <h4>JukeLink (music playlists; back end)</h4>
                     </a>
                 </Col>
-                {/* Weather Dashboard (Module 6 - APIs, jQuery, Bootstrap) */}
+
+                {/* Business Dashboard (Project 3) */}
                 <Col>
-                    <a href='https://anj-23.github.io/weather-dashboard/' target='_blank' rel="noreferrer" >
-                        <Image src={require("../assets/images/port_1.jpg")} className="portfolio-image" alt="Weather Dashboard" />
-                        <h4>Weather Dashboard</h4>
+                    <a href='https://github.com/JacobDNelsonStone/business-dashboard-react' target='_blank' rel="noreferrer" >
+                        <Image src={require("../assets/images/project_3.jpg")} className="portfolio-image" alt="Business Dashboard" />
+                        <h4>Business Dashboard</h4>
                     </a>
                 </Col>
+                
                 {/* Shopping Demo (Front end) (Project 1) */}
                 <Col>
                     <a href='https://moe1401.github.io/shopping-demo/' target='_blank' rel="noreferrer" >
@@ -48,11 +50,11 @@ function Portfolio(props) {
             </Row>
 
             <Row>
-                {/* Business Dashboard (Project 3) */}
+                {/* Weather Dashboard (Module 6 - APIs, jQuery, Bootstrap) */}
                 <Col>
-                    <a href='https://github.com/JacobDNelsonStone/business-dashboard-react' target='_blank' rel="noreferrer" >
-                        <Image src={require("../assets/images/project_3.jpg")} className="portfolio-image" alt="Business Dashboard" />
-                        <h4>Business Dashboard</h4>
+                    <a href='https://anj-23.github.io/weather-dashboard/' target='_blank' rel="noreferrer" >
+                        <Image src={require("../assets/images/port_1.jpg")} className="portfolio-image" alt="Weather Dashboard" />
+                        <h4>Weather Dashboard</h4>
                     </a>
                 </Col>
 

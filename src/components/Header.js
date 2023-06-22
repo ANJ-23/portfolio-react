@@ -7,8 +7,7 @@ function Header(props) {
                 src={require("../assets/images/home_top_image.jpg")}
                 alt="Semi-Abstract Space Travel"
             />
-            <h1 className="image-text">{props.headerText}</h1>
-            
+            <h1 className="image-text header-anim">{props.headerText}</h1>
         </header>
         
     )

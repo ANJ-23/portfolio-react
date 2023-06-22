@@ -1,21 +1,21 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
 
 function Resume() {
 
     return (
-        <Container className="resume">
+        <Container className="port-res">
             <Row className="justify-content-md-center">
-                <Col sm="3" >
-                    <a href='./assets/AndrewJoo_Resume.pdf' download>
-                        <h2 href='./assets/AndrewJoo_Resume.pdf' download>Download my resume!</h2>
+                <Col  >
+                    <a href='./assets/Andrew_Joo_Resume.pdf' download>
+                        <h2>Download my resume!</h2>
                     </a>
                 </Col>
             </Row>
 
-            <Row >
+            <Row className="fade-in-delayed">
                 <Col style={{marginTop:"10px", textAlign:"center"}}>
                     <h3>Front End</h3>
                     {/* <p>React</p>
@@ -37,10 +37,12 @@ function Resume() {
                     <ul style={{listStyleType:"none", display:"inline-block", textAlign:"left", marginRight:"24px"}} >
                         <li>Express.js</li>
                         <li>Node.js</li>
-                        <li>API fetch</li>
                         <li>SQL</li>
                         <li>MongoDB</li>
                         <li>Apollo</li>
+                        <li>Sequelize.js</li>
+                        <li>Heroku</li>
+                        <li>Git</li>
                     </ul>
                 </Col>
             </Row>

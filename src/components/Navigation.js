@@ -5,12 +5,6 @@ import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 // import Offcanvas from 'react-bootstrap/Offcanvas';
 
-/* 
-TO-DO:
-- implement custom light & dark modes (variables in React, custom classes with custom colors, button to switch themes)
-- implement useContext somewhere in my portfolio?
-*/
-
 function Navigation(props) {
     // const [currentPage, setCurrentPage] = useState("home")
 

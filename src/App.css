@@ -108,8 +108,25 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
 
+  /* opacity: 0; */
+  /* transition: opacity 1s ease; */
+  
   font-size: 84px;
 }
+
+/* Header text's fade-in + move down animation */
+.header-anim {
+  animation: 1s fadeIn;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 
 /* MAIN BODY - for Home & About pages */
@@ -121,41 +138,92 @@ section {
   color: white; */
   text-align: left;
 }
-
 .main-sect p {
   font-size: 18px;
 }
 
+/* Fade-in + slide from left animation */
+.main-left-anim {
+  animation: 1s ease fadeInSlideFromLeft;
+}
+@keyframes fadeInSlideFromLeft {
+  0% {
+    transform: translateX(-30%);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
 
-/* Portfolio page */
+/* Fade-in + slide from right animation */
+.main-right-anim {
+  animation: 1s ease fadeInSlideFromRight;
+}
+@keyframes fadeInSlideFromRight {
+  0% {
+    transform: translateX(20%);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+
+/* Portfolio & Resume pages */
 .portfolio-image {
   width: 380px;
   height: 214px;
 }
-h4 {
-  color: green;
-}
-
-
-/* Resume page */
-.resume {
+.port-res {
   padding: 40px 40px;
 }
-.resume a {
+.port-res a {
   text-decoration: none;
   color: lightgreen;
 }
-.resume h4 {
+.port-res a:hover {
+  color: white;
+}
+.port-res a:active {
+  color: green;
+}
+.port-res h4 {
   margin-top: 10px;
 }
-.resume div.row {
+.port-res div.row {
   /* padding: 40px; */
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.resume div.row div.col {
+.port-res div.row div.col {
   /* padding: 40px; */
   padding: 10px 10px;
+}
+
+/* Fade-in animation with delay; uesd for portfolio & resume pages */
+.fade-in-delayed {
+  animation: 1s fadeDelayed;
+}
+@keyframes fadeDelayed {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 
@@ -175,7 +243,9 @@ h4 {
   justify-content: center;
   /* text-align: center; */
 }
-
+.footer-icon-fade:hover {
+  opacity: 0.75;
+}
 
 /* inverts footer icons + gives a bit of space between them */
 .footer-container img {

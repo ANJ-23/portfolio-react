@@ -21,8 +21,6 @@ function About(props) {
             </Row>
         </Container> 
     )
-
-    /* (LIST SKILLS HERE) I'm a guy who is addicted to video games, anime, VTubers, and coffee. */
 }
 
 export default About

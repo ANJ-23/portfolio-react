@@ -18,10 +18,6 @@ function Resume() {
             <Row className="fade-in-delayed">
                 <Col style={{marginTop:"10px", textAlign:"center"}}>
                     <h3>Front End</h3>
-                    {/* <p>React</p>
-                    <p>JavaScript</p>
-                    <p></p>
-                    <p></p> */}
                     <ul style={{listStyleType:"none", display:"inline-block", textAlign:"left", marginRight:"24px"}} >
                         <li>React</li>
                         <li>JavaScript</li>

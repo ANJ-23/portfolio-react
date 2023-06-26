@@ -1,5 +1,6 @@
 // (c) Copyright Andrew Joo 2023
 // https://github.com/ANJ-23/portfolio-react
+// 
 
 import './App.css';
 
@@ -16,24 +17,17 @@ function App() {
 
   return (
     <div className="App" style={{height:"400"}}>
-      {/* <nav style={{ borderBottom: "2px solid black", display: "flex" }}>
-        <a onClick={()=>setCurrentPage("home")}>Home</a>
-        <a onClick={()=>setCurrentPage("about")}>About</a>
-        <a onClick={()=>setCurrentPage("portfolio")}>Portfolio</a>
-      </nav> */}
 
       {/* Nav bar; clicking on the links "sets the current page" & changes page accordingly */}
       <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
-
 
       {/* Page changes depending on what the user "set the page as" */}
       {currentPage === "home" && (
         <main>
           <Header headerText="HOME">
-
           </Header>
+
           <Home>
-          
           </Home>
         </main>
       )}
@@ -41,10 +35,9 @@ function App() {
       {currentPage === "about" && (
         <main>
           <Header headerText="ABOUT">
-
           </Header>
+
           <About>
-          
           </About>
         </main>
       )}
@@ -52,10 +45,9 @@ function App() {
       {currentPage === "portfolio" && (
         <main>
           <Header headerText="PORTFOLIO">
-
           </Header>
-          <Portfolio>
 
+          <Portfolio>
           </Portfolio>
         </main>
       )}
@@ -63,10 +55,9 @@ function App() {
       {currentPage === "resume" && (
         <main>
           <Header headerText="RESUME">
-
           </Header>
-          <Resume>
 
+          <Resume>
           </Resume>
         </main>
       )}
@@ -76,17 +67,15 @@ function App() {
       {currentPage === "contact" && (
         <main>
           <Header headerText="CONTACT">
-
           </Header>
-          <Contact>
 
+          <Contact>
           </Contact>
         </main>
       )}
 
-
+      {/* renders Footer */}
       <Footer>
-        
       </Footer>
     </div>
   );

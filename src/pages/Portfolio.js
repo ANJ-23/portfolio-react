@@ -5,22 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 function Portfolio(props) {
 
-    /* <section>
-    <h1>Portfolio</h1>
-
-    {props.sectionsToShow.includes("adwork") && (
-        <div>
-            <p>adwork goes here</p>
-        </div>
-    )}
-
-    {props.sectionsToShow.includes("directmail") && (
-        <div>
-            <p>direct mail link goes here</p>
-        </div>
-    )}
-    </section> */
-
+    
     return (
         <Container className="port-res fade-in-delayed">
             <Row>

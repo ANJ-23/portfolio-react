@@ -51,7 +51,6 @@ nav {
   column-gap: 20px;
   padding: 14px;
   align-items: center;
-  /* justify-content: center; */
 
   background-color: rgb(0, 77, 52);
   color: white;
@@ -68,6 +67,8 @@ span.navbar-brand {
 main {
   font-family: 'Roboto', sans-serif;
   /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  height: 100vh;
+
   background-color: rgb(4, 4, 61);
   color: white;
 }
@@ -107,9 +108,6 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  /* opacity: 0; */
-  /* transition: opacity 1s ease; */
   
   font-size: 84px;
 }
@@ -132,10 +130,6 @@ section {
 /* MAIN BODY - for Home & About pages */
 .main-sect {
   padding: 40px 40px;
-  /* height: 360px; */
-
-  /* background-color: rgb(28, 28, 182);
-  color: white; */
   text-align: left;
 }
 .main-sect p {
@@ -201,12 +195,10 @@ section {
   margin-top: 10px;
 }
 .port-res div.row {
-  /* padding: 40px; */
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .port-res div.row div.col {
-  /* padding: 40px; */
   padding: 10px 10px;
 }
 
@@ -230,18 +222,14 @@ section {
 /* FOOTER */
 .footer-container {
   display: flex;
-  /* height: 120px; */
   background-color: #002635;
   color: white;
 
-  /* padding: 20px 0 20px 0; */
   padding: 10px;
 
   align-items: center;
-  /* align-content: center; */
   flex-direction: column;
   justify-content: center;
-  /* text-align: center; */
 }
 .footer-icon-fade:hover {
   opacity: 0.75;
@@ -250,7 +238,6 @@ section {
 /* inverts footer icons + gives a bit of space between them */
 .footer-container img {
   filter: invert(100%);
-  /* margin: 0 5px 0 5px; */
   margin: 10px;
 }
 

@@ -10,9 +10,9 @@ N/A
 
 ## Usage
 
-In the deployed website (<https://anj-23.github.io/portfolio-react/>), click on the links on top to navigate the website as desired.
+In the deployed website (either <https://ajs-portfolio-ab1884dc5f7d.herokuapp.com> or <https://anj-23.github.io/portfolio-react>), click on the links on top to navigate the website as desired.
 
-![alt text goes here](assets/images/screenshot-2.jpg)
+![Portfolio Home Page](assets/images/screenshot-2.jpg)
 
 ## Credits
 

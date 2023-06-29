@@ -54,11 +54,11 @@ function Portfolio(props) {
                     </a>
                 </Col>
 
-                {/* Password Generator (Module 3 - Front-end JavaScript) */}
+                {/* Work Day Scheduler (Front-end JavaScript (DOM traversal, jQuery, Day.js, local storage)) */}
                 <Col>
-                    <a href='https://github.com/ANJ-23/password-generator' target='_blank' rel="noreferrer" >
-                        <Image src={require("../assets/images/port_3.jpg")} className="portfolio-image" alt="Password Generator" />
-                        <h4>Password Generator</h4>
+                    <a href='https://github.com/ANJ-23/work-day-scheduler' target='_blank' rel="noreferrer" >
+                        <Image src={require("../assets/images/port_3_(2).jpg")} className="portfolio-image" alt="Password Generator" />
+                        <h4>Work Day Scheduler</h4>
                     </a>
                 </Col>
             </Row>

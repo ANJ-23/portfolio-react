@@ -6,10 +6,10 @@ function Footer() {
         <footer className="footer-container">
             <div>
                 <a href="https://github.com/ANJ-23" rel="noreferrer" target="_blank" >
-                    <img src={require("../assets/images/github_icon_small_2.png")} alt="Github link" className="footer-icon-fade"/>
+                    <img src={require("../assets/images/github_icon_small_2.png")} alt="Github link" className="icon"/>
                 </a>
                 <a href="https://www.linkedin.com/in/andrew-joo-500/" rel="noreferrer" target="_blank" >
-                    <img src={require("../assets/images/linkedin_icon_small.png")} alt="LinkedIn link" className="footer-icon-fade"/>
+                    <img src={require("../assets/images/linkedin_icon_small.png")} alt="LinkedIn link" className="icon"/>
                 </a>
             </div>
         

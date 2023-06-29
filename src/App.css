@@ -67,7 +67,7 @@ span.navbar-brand {
 main {
   font-family: 'Roboto', sans-serif;
   /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-  height: 100vh;
+  /* height: 100vh; */
 
   background-color: rgb(4, 4, 61);
   color: white;
@@ -231,14 +231,16 @@ section {
   flex-direction: column;
   justify-content: center;
 }
-.footer-icon-fade:hover {
-  opacity: 0.75;
-}
-
-/* inverts footer icons + gives a bit of space between them */
 .footer-container img {
-  filter: invert(100%);
   margin: 10px;
+}
+/* inverts footer icons + gives a bit of space between them */
+.icon {
+  filter: invert(100%);
+}
+/* icon fades a bit when hovered over */
+.icon:hover {
+  opacity: 0.75;
 }
 
 

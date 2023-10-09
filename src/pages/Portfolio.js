@@ -9,14 +9,11 @@ function Portfolio(props) {
     return (
         <Container className="port-res fade-in-delayed">
             <Row>
-                {/* JukeLink (back end; Music playlist concept) (Project 2) */}
+                {/* Weather Dashboard (Module 6 - APIs, jQuery, Bootstrap) */}
                 <Col>
-                    <a href='https://github.com/ANJ-23/music-favorites' target='_blank' rel="noreferrer" >
-                        <Image src={require("../assets/images/project_2.jpg")} className="portfolio-image" alt="JukeLink (Music playlist concept)" />
-                        <h4>JukeLink</h4>
-                        {/* <a href="https://github.com/ANJ-23" rel="noreferrer" target="_blank" >
-                            <img src={require("../assets/images/github_icon_small_2.png")} alt="Github link to repo" className="icon"/>
-                        </a> */}
+                    <a href='https://github.com/ANJ-23/weather-dashboard' target='_blank' rel="noreferrer" >
+                        <Image src={require("../assets/images/port_1.jpg")} className="portfolio-image" alt="Weather Dashboard" />
+                        <h4>Weather Dashboard</h4>
                     </a>
                 </Col>
 
@@ -38,11 +35,11 @@ function Portfolio(props) {
             </Row>
 
             <Row>
-                {/* Weather Dashboard (Module 6 - APIs, jQuery, Bootstrap) */}
+                {/* Web API Quiz (Module 4 - Front-end JavaScript) */}
                 <Col>
-                    <a href='https://github.com/ANJ-23/weather-dashboard' target='_blank' rel="noreferrer" >
-                        <Image src={require("../assets/images/port_1.jpg")} className="portfolio-image" alt="Weather Dashboard" />
-                        <h4>Weather Dashboard</h4>
+                    <a href='https://github.com/ANJ-23/web-api-quiz'  target='_blank' rel="noreferrer">
+                        <Image src={require("../assets/images/port_6.jpg")} className="portfolio-image" alt="Web API Quiz" />
+                        <h4>Web API Quiz</h4>
                     </a>
                 </Col>
 
@@ -79,12 +76,15 @@ function Portfolio(props) {
                         <h4>README Generator</h4>
                     </a>
                 </Col>
-
-                {/* Web API Quiz (Module 4 - Front-end JavaScript) */}
+                
+                {/* JukeLink (back end; Music playlist concept) (Project 2) */}
                 <Col>
-                    <a href='https://github.com/ANJ-23/web-api-quiz'  target='_blank' rel="noreferrer">
-                        <Image src={require("../assets/images/port_6.jpg")} className="portfolio-image" alt="Web API Quiz" />
-                        <h4>Web API Quiz</h4>
+                    <a href='https://github.com/ANJ-23/music-favorites' target='_blank' rel="noreferrer" >
+                        <Image src={require("../assets/images/project_2.jpg")} className="portfolio-image" alt="JukeLink (Music playlist concept)" />
+                        <h4>JukeLink</h4>
+                        {/* <a href="https://github.com/ANJ-23" rel="noreferrer" target="_blank" >
+                            <img src={require("../assets/images/github_icon_small_2.png")} alt="Github link to repo" className="icon"/>
+                        </a> */}
                     </a>
                 </Col>
             </Row>

@@ -16,7 +16,7 @@ function Navigation(props) {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="justify-content-end flex-grow-1 me-auto">
                         <Nav.Link onClick={()=>props.setCurrentPage("home")} href="">Home</Nav.Link>
-                        <Nav.Link onClick={()=>props.setCurrentPage("about")} href="" >About</Nav.Link>
+                        {/* <Nav.Link onClick={()=>props.setCurrentPage("about")} href="" >About</Nav.Link> */}
                         <Nav.Link onClick={()=>props.setCurrentPage("portfolio")} href="">Portfolio</Nav.Link>
                         <Nav.Link onClick={()=>props.setCurrentPage("resume")} href="">Resume</Nav.Link>
 

@@ -8,7 +8,7 @@ import {useState} from "react"
 // import {useEffect} from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import {Home, About, Portfolio, Contact, Resume} from "./pages"
+import {Home, Portfolio, Contact, Resume} from "./pages"
 import {Navigation, Header, Footer} from "./components"
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
         </main>
       )}
 
-      {currentPage === "about" && (
+      {/* {currentPage === "about" && (
         <main>
           <Header headerText="ABOUT">
           </Header>
@@ -40,7 +40,7 @@ function App() {
           <About>
           </About>
         </main>
-      )}
+      )} */}
 
       {currentPage === "portfolio" && (
         <main>

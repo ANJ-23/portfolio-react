@@ -25,6 +25,7 @@ function Resume() {
                         <li>Bootstrap</li>
                         <li>HTML</li>
                         <li>CSS</li>
+                        {/* TypeScript, Tailwind CSS, Next.js */}
                     </ul>
                 </Col>
                     
@@ -39,6 +40,7 @@ function Resume() {
                         <li>Sequelize.js</li>
                         <li>Heroku</li>
                         <li>Git</li>
+                        {/* Vercel, Prisma */}
                     </ul>
                 </Col>
             </Row>

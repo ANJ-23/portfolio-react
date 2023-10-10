@@ -17,11 +17,11 @@ function Portfolio(props) {
                     </a>
                 </Col>
 
-                {/* Business Dashboard (Project 3) */}
+                {/* Work Day Scheduler (Front-end JavaScript (DOM traversal, jQuery, Day.js, local storage)) */}
                 <Col>
-                    <a href='https://github.com/JacobDNelsonStone/business-dashboard-react' target='_blank' rel="noreferrer" >
-                        <Image src={require("../assets/images/project_3.jpg")} className="portfolio-image" alt="Business Dashboard" />
-                        <h4>Business Dashboard</h4>
+                    <a href='https://github.com/ANJ-23/work-day-scheduler' target='_blank' rel="noreferrer" >
+                        <Image src={require("../assets/images/port_3_(2).jpg")} className="portfolio-image" alt="Password Generator" />
+                        <h4>Work Day Scheduler</h4>
                     </a>
                 </Col>
                 
@@ -43,19 +43,19 @@ function Portfolio(props) {
                     </a>
                 </Col>
 
+                {/* Business Dashboard (Project 3) */}
+                <Col>
+                    <a href='https://github.com/JacobDNelsonStone/business-dashboard-react' target='_blank' rel="noreferrer" >
+                        <Image src={require("../assets/images/project_3.jpg")} className="portfolio-image" alt="Business Dashboard" />
+                        <h4>Business Dashboard</h4>
+                    </a>
+                </Col>
+
                 {/* Social Network API (Module 18 - Mongoose/MongoDB) */}
                 <Col>
                     <a href='https://github.com/ANJ-23/social-network-api' target='_blank' rel="noreferrer" >
                         <Image src={require("../assets/images/port_2.jpg")} className="portfolio-image" alt="Social Network API" />
                         <h4>Social Network API</h4>
-                    </a>
-                </Col>
-
-                {/* Work Day Scheduler (Front-end JavaScript (DOM traversal, jQuery, Day.js, local storage)) */}
-                <Col>
-                    <a href='https://github.com/ANJ-23/work-day-scheduler' target='_blank' rel="noreferrer" >
-                        <Image src={require("../assets/images/port_3_(2).jpg")} className="portfolio-image" alt="Password Generator" />
-                        <h4>Work Day Scheduler</h4>
                     </a>
                 </Col>
             </Row>

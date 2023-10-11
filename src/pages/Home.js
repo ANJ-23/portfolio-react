@@ -15,7 +15,7 @@ function Home(props) {
 
                 <Col lg={true} className='main-right-anim'>
                     <main>
-                        <p>My name is Andrew Joo, and I am a full-stack web developer who specializes in MERN stacks. I also develop with Next.js, Tailwind CSS, Prisma, and TypeScript. </p>
+                        <p>My name is Andrew Joo, and I am a full-stack web developer who specializes in MongoDB, Express.js, React, and Node.js. I also develop with Next.js, Tailwind CSS, Prisma, and TypeScript. </p>
 
                         <p>In addition, I consume way too much anime, video games, coffee, and sugar. My life blood is either those or homemade bread.</p>
 

@@ -10,7 +10,7 @@ function Navigation(props) {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand onClick={()=>props.setCurrentPage("home")} href="">Andrew's Sample Site</Navbar.Brand>
+                <Navbar.Brand onClick={()=>props.setCurrentPage("home")} href="">Andrew's Site</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
                 <Navbar.Collapse id="responsive-navbar-nav">
